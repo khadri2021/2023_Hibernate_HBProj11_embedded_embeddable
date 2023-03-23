@@ -9,8 +9,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import com.khadri.hibernate.embaddable.entities.Store;
 import com.khadri.hibernate.embaddable.types.PhonePayImpl;
-import com.khadri.hibernate.target.mapping.entities.Store;
 
 public class Main3 {
 
