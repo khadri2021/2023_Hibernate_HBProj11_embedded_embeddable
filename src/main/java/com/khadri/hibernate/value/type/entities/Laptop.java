@@ -1,5 +1,6 @@
 package com.khadri.hibernate.value.type.entities;
 
+import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
@@ -15,9 +16,11 @@ public class Laptop {
 	// value types
 	@Id
 	@Column(name = "ID")
+	@Basic
 	private int id;
 
 	@Column(name = "NAME")
+	@Basic
 	private String name;
 
 	@Embedded
